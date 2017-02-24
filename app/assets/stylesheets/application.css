@@ -13,4 +13,12 @@
  *= require_tree .
  *= require_self
  *= require ./vendors/bootstrap
+ *= require ./vendors/animate.min
+ *= require ./vendors/bootstrap-theme
+ *= require ./vendors/jquery.bxslider
+ *= require ./vendors/magnific-popup
+ *= require ./vendors/res-rtl
+ *= require ./vendors/responsive
+ *= require ./vendors/rtl
+ *= require ./vendors/style
  */

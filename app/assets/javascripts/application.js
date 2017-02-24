@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require ./vendors/bootstrap
+//= require ./vendors/mdrz2.8.3.min
+//= require ./vendors/custom.min
+//= require ./vendors/gmap3
+//= require ./vendors/jquery.ajaxchimp.min
+//= require ./vendors/wow.min
