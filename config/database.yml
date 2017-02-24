@@ -78,8 +78,11 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
 production:
   <<: *default
-  database: photography_production
-  username: photography
+  username: <%= ENV['PHOTOGRAPHY_DATABASE_USERNAME'] %>
   password: <%= ENV['PHOTOGRAPHY_DATABASE_PASSWORD'] %>
+  database: d4kdhs1r5m6osl
+  port: 5432
+  host: ec2-23-23-223-2.compute-1.amazonaws.com
