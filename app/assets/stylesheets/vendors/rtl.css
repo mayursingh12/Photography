@@ -55,7 +55,7 @@ body {
     -webkit-font-smoothing: subpixel-antialiased !important;
     -moz-font-smoothing: subpixel-antialiased !important;
     -ms-font-smoothing: subpixel-antialiased !important;
-    -0-font-smoothing: subpixel-antialiased !important;
+    -o-font-smoothing: subpixel-antialiased !important;
     text-rendering: optimizeLegibility !important;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
