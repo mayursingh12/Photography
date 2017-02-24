@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-inline">
+      <li>
+        <%= link_to 'New Photo', new_admin_photo_path, class: 'btn btn-primary' %>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <table class="table table-striped">
+      <thead>
+      <tr class="info">
+        <th>ID</th>
+        <th>One liner</th>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @photos.each do |photo| %>
+          <tr>
+            <td><%= photo.id %></td>
+            <td><%= photo.one_liner %></td>
+            <td><%= photo.description %></td>
+            <td>
+              <%= image_tag photo.image.url(Photo::DEFAULT_SIZE) %>
+            </td>
+            <td>
+              <%= link_to edit_admin_photo_path(photo) do %>
+                  <i class="fa fa-edit"></i>
+              <%- end %>
+              <%= link_to admin_photo_path(photo), method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger' do %>
+                  <i class="fa fa-trash fa-3"></i>
+              <%- end %>
+            </td>
+          </tr>
+      <%- end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<%= will_paginate @photos %>
+
+

@@ -1,0 +1,9 @@
+<%= simple_form_for [:admin, @photo] do |f| %>
+    <%= f.input :one_liner %>
+    <%= f.input :description %>
+    <% if f.object.image.present? %>
+        <%= image_tag f.object.image.url(:size_250x250) %>
+    <%- end %>
+    <%= f.input :image %>
+    <%= f.submit 'Save', class: 'btn btn-primary' %>
+<% end %>
