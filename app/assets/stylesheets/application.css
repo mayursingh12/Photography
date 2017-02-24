@@ -10,8 +10,6 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  *= require ./vendors/bootstrap
  *= require ./vendors/animate.min
  *= require ./vendors/bootstrap-theme
@@ -21,4 +19,7 @@
  *= require ./vendors/responsive
  *= require ./vendors/rtl
  *= require ./vendors/style
+ *= require_tree .
+ *= require_self
+
  */
