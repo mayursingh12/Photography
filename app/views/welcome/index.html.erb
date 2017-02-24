@@ -1,8 +1,4 @@
 <!-- Header Section -->
-<%= image_tag asset_path('logo.png') %>
-<br>
-<br>
-<br>
 
 <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -11,7 +7,9 @@
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand" href="./"><img src="assets/logo.png" alt="Site Logo"></a>
+      <a class="navbar-brand" href="./">
+        <%= image_tag asset_path('logo.png'), alt: "Site Logo"%>
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +37,8 @@
     <ul class="bxslider">
       <li>
         <div class="head-overlay">
-          <img src="assets/slider/1.jpg"/>
+          <%= image_tag asset_path('slider/1.jpg'), alt: "Site Logo"%>
+          <!--<img src="assets/slider/1.jpg"/>-->
         </div><!-- /.head-overlay -->
         <div class="slider-text">
           <div class="slide-inner">
