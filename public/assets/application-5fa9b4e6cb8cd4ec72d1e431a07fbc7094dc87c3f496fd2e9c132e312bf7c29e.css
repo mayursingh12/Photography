@@ -3231,7 +3231,7 @@ button:focus {
 }
 .section-title span {
     color: #e74c3c;
-    ;
+;
 }
 .section-description {
     direction: rtl;
@@ -3434,7 +3434,7 @@ button:focus {
     background: #ffffff;
     border-radius: 0px;
     box-shadow: none;
-    ;
+;
     height: 30px;
     margin-bottom: 15px;
 }
@@ -3466,7 +3466,7 @@ button:focus {
 /* 6 ------- Subscribe Section Styles ---------*/
 
 .subscribe-section {
-    background: url(../../assets/background/1.jpg) no-repeat center center fixed;
+    background: url(/assets/background/1-c008722676ff3c277fd097ff233c2520f5125ccccb5aa94e8dd72c7babfd85e2.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
@@ -3611,7 +3611,7 @@ button:focus {
 .project-items .image-popup-vertical-fit:before {
     content: '';
     background: rgba(231, 76, 60, 0.7);
-    cursor: url(../../assets/cursor.png) 30 30, crosshair;
+    cursor: url(/assets/cursor-e3d8bd84a0250a75050be5e88a74fb6acf302afe520f0ddb03968fa6d35e39a0.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
     top: 50%;
@@ -3669,7 +3669,7 @@ button:focus {
 /* 8 ------- Sponsors Section Styles -------*/
 
 .sponsors {
-    background: url(../../assets/background/2.jpg) no-repeat center center fixed;
+    background: url(/assets/background/2-44f358f1958529ffbecea3ada8ea9a9fd09a400efbaa922951aac207c09e195e.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .section-pattern {
@@ -3720,7 +3720,7 @@ button:focus {
 /* 10 ------- Testimonial Section Styles --------*/
 
 .testimonial {
-    background: url(../../assets/background/3.jpg) no-repeat center center fixed;
+    background: url(/assets/background/3-529e038fab09e7f7ad982b492c9e8cc60f25e0bfb2f60394d12f4468addd8c97.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
@@ -3798,12 +3798,12 @@ button:focus {
 /* 12 -------- Blog Posts Page Styles ---------*/
 
 .page-head {
-    background: url(../../assets/background/blog.jpg) no-repeat center top fixed;
+    background: url(/assets/background/blog-d789808106a251931bb2e259d76627fc3682b877cca19b39ee274f5da51741a3.jpg) no-repeat center top fixed;
     background-size: cover;
     color: #ffffff;
 }
 .head-overlay {
-    background: url(../../assets/head-overlay.png);
+    background: url(/assets/head-overlay-fbc47c956be2d3ac94448b6dceadef19f8dc55fd656749ed16e4640af924db8c.png);
 }
 .page-head .page-title {
     font-family: 'Belgrano';
@@ -4565,7 +4565,7 @@ button:focus {
 }
 .section-title span {
     color: #e74c3c;
-    ;
+;
 }
 .section-description {
     font-size: 1em;
@@ -4754,7 +4754,7 @@ button:focus {
     background: #ffffff;
     border-radius: 0px;
     box-shadow: none;
-    ;
+;
     height: 30px;
     margin-bottom: 15px;
 }
@@ -4782,7 +4782,7 @@ button:focus {
 /* 6 ------- Subscribe Section Styles ---------*/
 
 .subscribe-section {
-    background: url(../../assets/background/1.jpg) no-repeat center center fixed;
+    background: url(/assets/background/1-c008722676ff3c277fd097ff233c2520f5125ccccb5aa94e8dd72c7babfd85e2.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
@@ -4926,7 +4926,7 @@ button:focus {
 .project-items .image-popup-vertical-fit:before {
     content: '';
     background: rgba(231, 76, 60, 0.7);
-    cursor: url(../../assets/cursor.png) 30 30, crosshair;
+    cursor: url(/assets/cursor-e3d8bd84a0250a75050be5e88a74fb6acf302afe520f0ddb03968fa6d35e39a0.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
     top: 50%;
@@ -4982,7 +4982,7 @@ button:focus {
 /* 8 ------- Sponsors Section Styles -------*/
 
 .sponsors {
-    background: url(../../assets/background/2.jpg) no-repeat center center fixed;
+    background: url(/assets/background/2-44f358f1958529ffbecea3ada8ea9a9fd09a400efbaa922951aac207c09e195e.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .section-pattern {
@@ -5032,7 +5032,7 @@ button:focus {
 /* 10 ------- Testimonial Section Styles --------*/
 
 .testimonial {
-    background: url(../../assets/background/3.jpg) no-repeat center center fixed;
+    background: url(/assets/background/3-529e038fab09e7f7ad982b492c9e8cc60f25e0bfb2f60394d12f4468addd8c97.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
@@ -5110,12 +5110,12 @@ button:focus {
 /* 12 -------- Blog Posts Page Styles ---------*/
 
 .page-head {
-    background: url(../../assets/background/blog.jpg) no-repeat center top fixed;
+    background: url(/assets/background/blog-d789808106a251931bb2e259d76627fc3682b877cca19b39ee274f5da51741a3.jpg) no-repeat center top fixed;
     background-size: cover;
     color: #ffffff;
 }
 .head-overlay {
-    background: url(../../assets/head-overlay.png);
+    background: url(/assets/head-overlay-fbc47c956be2d3ac94448b6dceadef19f8dc55fd656749ed16e4640af924db8c.png);
 }
 .page-head .page-title {
     font-family: 'Belgrano';
