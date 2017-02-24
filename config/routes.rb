@@ -62,6 +62,10 @@ Rails.application.routes.draw do
 
     resources :photos
 
+    resources :enquiries
+
   end
+
+  resources :enquiries
 
 end

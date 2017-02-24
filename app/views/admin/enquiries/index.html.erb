@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-sm-12">
+    <table class="table table-striped">
+      <thead>
+      <tr class="info">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @enquiries.each do |enquiry| %>
+          <tr>
+            <td><%= enquiry.id %></td>
+            <td><%= enquiry.name %></td>
+            <td><%= enquiry.email %></td>
+            <td><%= enquiry.message %></td>
+          </tr>
+      <%- end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<%= will_paginate @enquiries %>
