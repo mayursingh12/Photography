@@ -47,6 +47,11 @@ group :development do
   gem "letter_opener"
 end
 
+group :production do
+  gem 'rails_12factor'
+
+  gem 'exception_notification'
+end
 
 gem 'devise'
 gem 'simple_form'
