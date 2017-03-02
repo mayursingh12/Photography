@@ -1,7 +1,7 @@
 class AdminMailer < ApplicationMailer
 
   DEFAULT_SUBJECT = 'Photography Admin - '
-  default to: 'mayursingh1220@gmail.com'
+  default to: 'jyoti.jr1993@gmail.com'
 
   def enquiry(enquiry)
     @enquiry = enquiry
