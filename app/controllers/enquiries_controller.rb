@@ -3,6 +3,7 @@ class EnquiriesController < ApplicationController
   def create
     @enquiry = Enquiry.new(enquiry_params)
     if @enquiry.save
+      AdminMailer.enquiry(@enquiry).deliver_now
       render status: :ok, nothing: true
     else
       render status: :unprocessable_entity, json: { errors: @enquiry.errors.full_messages }

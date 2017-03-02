@@ -80,4 +80,23 @@ Rails.application.configure do
   # config.action_controller.asset_host =
       # config.action_mailer.asset_host     = 'http://your.asset.host.com'
 
+  # ==========from gmail ===========
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :user_name            => 'jyoti.jr1993@gmail.com',
+      :password             => 'navjotk123',
+      :authentication       => "plain",
+      :enable_starttls_auto => true
+  }
+  # ============= End ==============
+
+  Rails.application.config.middleware.use ExceptionNotification::Rack,
+                                          :email => {
+                                              :email_prefix => 'Photography new ERROR OCCURRED',
+                                              :sender_address => %{'notifier' <mayursingh1220@gmail.com>},
+                                              :exception_recipients => %w{mayursingh1220@gmail.com}
+                                          }
+
 end
