@@ -3163,7 +3163,7 @@ a:hover {
 }
 p {
     color: #a7a7a8;
-    direction: rtl;
+    /*direction: rtl;*/
     font-weight: 400;
     line-height: 23px;
 }
@@ -3234,16 +3234,16 @@ button:focus {
 ;
 }
 .section-description {
-    direction: rtl;
+    /*direction: rtl;*/
     font-size: 1em;
     font-weight: 300;
     padding: 0px 15%;
 }
 .item-description {
-    direction: rtl;
+    /*direction: rtl;*/
 }
 .section-details {
-    direction: rtl;
+    /*direction: rtl;*/
     display: inline-block;
     padding-top: 30px;
 }
@@ -3456,7 +3456,7 @@ button:focus {
 }
 .about-work {
     text-align: right;
-    direction: rtl;
+    /*direction: rtl;*/
     padding-right: 15%;
 }
 .about-work .description {
@@ -3824,7 +3824,7 @@ button:focus {
 }
 .breadcrumb {
     background: #fafafa;
-    direction: rtl;
+    /*direction: rtl;*/
     margin: 0px;
     padding: 0px;
 }
@@ -3912,7 +3912,7 @@ button:focus {
     text-align: right;
 }
 .tag-list {
-    direction: rtl;
+    /*direction: rtl;*/
     padding-right: 15px;
     position: relative;
 }
@@ -4099,7 +4099,7 @@ button:focus {
     padding-left: 30px;
 }
 .sidebar .widget {
-    direction: rtl;
+    /*direction: rtl;*/
     padding-bottom: 85px;
 }
 .sidebar .widget-title {
@@ -4228,7 +4228,7 @@ footer {
     background-color: #1e1e1e;
     color: #ffffff;
     clear: both;
-    direction: rtl;
+    /*direction: rtl;*/
     text-align: right;
 }
 footer .widget-title {
