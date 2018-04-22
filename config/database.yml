@@ -15,8 +15,11 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+    pool: 5
+    timeout: 5000
+    username: root
+    password: root
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
@@ -83,6 +86,15 @@ production:
   <<: *default
   username: <%= ENV['PHOTOGRAPHY_DATABASE_USERNAME'] %>
   password: <%= ENV['PHOTOGRAPHY_DATABASE_PASSWORD'] %>
-  database: d4kdhs1r5m6osl
-  port: 5432
-  host: ec2-23-23-223-2.compute-1.amazonaws.com
+  database: photography_production
+
+#production:
+#  <<: *default
+#  username: <%#= ENV['PHOTOGRAPHY_DATABASE_USERNAME'] %>
+#  password: <%#= ENV['PHOTOGRAPHY_DATABASE_PASSWORD'] %>
+#  database: d4kdhs1r5m6osl
+#  port: 5432
+#  host: ec2-23-23-223-2.compute-1.amazonaws.com
+
+
+
