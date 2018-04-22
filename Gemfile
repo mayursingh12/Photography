@@ -58,3 +58,4 @@ gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 5.0.0"
 gem 'will_paginate'
+gem 'dotenv-rails', '2.1.0'
