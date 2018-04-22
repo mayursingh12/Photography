@@ -95,6 +95,3 @@ production:
 #  database: d4kdhs1r5m6osl
 #  port: 5432
 #  host: ec2-23-23-223-2.compute-1.amazonaws.com
-
-
-
